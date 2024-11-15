@@ -1,0 +1,162 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #a70a92;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list li {
+    margin: 0 15px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+/* Page title */
+.page-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #9f23af;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+form textarea {
+    height: 120px; /* Set height for the textarea to make it consistent */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Image Upload Input */
+form input[type="file"] {
+    padding: 5px;
+}
+
+/* Submit Button */
+form button {
+    background-color: #a5159e;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b913a3;
+}
+
+/* Product Table */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+table td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action Buttons */
+a {
+    color: #ff4c4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
